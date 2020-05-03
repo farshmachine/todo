@@ -1,0 +1,10 @@
+.search-input {
+  flex-grow: 1;
+  margin-right: 3px;
+}
+
+@media (max-width: 400px) {
+  .search-input {
+    margin-bottom: 5px;
+  }
+}

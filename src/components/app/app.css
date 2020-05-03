@@ -1,0 +1,18 @@
+.todo-app {
+  margin: 2rem auto 0 auto;
+  max-width: 400px;
+}
+
+.top-panel {
+  margin: 1rem 0;
+}
+
+@media (max-width: 400px) {
+  .top-panel {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
