@@ -30,7 +30,7 @@ export default class ItemAddForm extends Component {
           onChange={this.onLabelChange}
           value={this.state.label}
         />
-        <button type="button" className="btn btn-outline-secondary">
+        <button type="button" className="btn btn-outline-secondary" onClick={this.onSubmit}>
           Add Task
         </button>
       </form>
